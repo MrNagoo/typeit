@@ -57,7 +57,7 @@ export default class Instance {
   }
 
   /**
-   * Reset the instance to new status.
+   * Reset the instance to `new` status with existing options.
    */
   reset() {
     this.queue.reset();
